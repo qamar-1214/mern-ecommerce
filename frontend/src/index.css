@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100;
+}
+
+/* react-toastify css */
+.toastBody {
+  font-family: "Atlas Grotesk Web", Arial, Helvetica, sans-serif;
+
+  font-size: 1.5rem !important;
+}
+
+/* sidebar custom shadow */
+.customShadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
